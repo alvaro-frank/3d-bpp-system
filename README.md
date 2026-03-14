@@ -46,4 +46,4 @@ docker-compose up --build
 
 Visit `http://localhost:8000/docs` to test the endpoints.
 
-Developed by Álvaro Franco - [LinkedIn](https://www.linkedin.com/in/alvaro-jose-franco/)
+Developed by Álvaro Franco - [LinkedIn](https://www.linkedin.com/in/alvaro-jose-franco/) | [GitHub](https://github.com/alvaro-frank)

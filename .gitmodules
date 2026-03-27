@@ -4,3 +4,6 @@
 [submodule "3d-bpp-backend"]
 	path = 3d-bpp-backend
 	url = https://github.com/alvaro-frank/3d-bpp-backend.git
+[submodule "3d-bpp-frontend"]
+	path = 3d-bpp-frontend
+	url = https://github.com/alvaro-frank/3d-bpp-frontend.git

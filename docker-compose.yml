@@ -1,7 +1,24 @@
 version: '3.8'
+
 services:
   backend:
     build: ./3d-bpp-backend
     ports:
       - "8000:8000"
     container_name: 3d-bpp-api
+    networks:
+      - bpp-network
+
+  frontend:
+    build: ./3d-bpp-frontend
+    ports:
+      - "8080:80" # Assumindo que o Dockerfile do frontend usa Nginx na porta 80
+    container_name: 3d-bpp-ui
+    depends_on:
+      - backend
+    networks:
+      - bpp-network
+
+networks:
+  bpp-network:
+    driver: bridge

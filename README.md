@@ -12,7 +12,7 @@ This project is organized into specialized repositories, linked here as **Git Su
 |-----------|-------------|------------|------------|
 | **AI Training** | Environment simulation and RL model training (DQN/PPO). | Python, Gym, SB3 | [Explore](https://github.com/alvaro-frank/3d-bpp) |
 | **Backend API** | High-performance inference service using Clean Architecture. | FastAPI, ONNX, Pytest | [Explore](https://github.com/alvaro-frank/3d-bpp-backend) |
-| **Frontend UI** | *[Planned]* Interactive 3D visualization dashboard. | React, Three.js, TS | [TBD] |
+| **Frontend UI** | Interactive 3D visualization dashboard. | React, Three.js, TS | [Explore](https://github.com/alvaro-frank/3d-bpp-frontend) |
 
 
 
@@ -24,6 +24,7 @@ This project is organized into specialized repositories, linked here as **Git Su
 - **Production-Ready Inference**: Models are exported to **ONNX** for fast execution without the overhead of heavy DL frameworks.
 - **Strict Domain Logic**: Core business rules are decoupled from the infrastructure, following Clean Architecture.
 - **Automated Quality**: Integrated CI/CD pipelines for automated testing and Docker image builds.
+- **3D Visualization**: Real-time interactive rendering of packing plans using React Three Fiber.
 
 ---
 
@@ -42,8 +43,9 @@ cd 3d-bpp-system
 docker-compose up --build
 ```
 
-3. **Access API Documentation**:
+3. **Access the Applications**:
 
-Visit `http://localhost:8000/docs` to test the endpoints.
+- **Backend API Docs**: Visit `http://localhost:8000/docs` to test the endpoints directly.
+- **Frontend Dashboard**: Visit `http://localhost:8080` to interact with the 3D visualizer.
 
 Developed by Álvaro Franco - [LinkedIn](https://www.linkedin.com/in/alvaro-jose-franco/) | [GitHub](https://github.com/alvaro-frank)
